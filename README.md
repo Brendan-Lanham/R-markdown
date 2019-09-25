@@ -29,3 +29,5 @@ library(tinytex)
  
 # IF that works, you're done.
 ```
+
+Download the Writing_in_RMarkdown folder before the workshop
