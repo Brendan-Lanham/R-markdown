@@ -6,7 +6,7 @@ Also, to create Word documents from Rmarkdown, you’ll need Pandoc installed. I
  
 I recommend following the steps in thesisdown, then creating a new template (note: ‘ Name: index’ cannot be changed) and clicking ‘knit’ straight away to see if your computer can create a document. If it can’t, the errors in the console should tell you what software you need to make it work. Unfortunately, downloading thesisdown and bookdown can be an issue on some computers and it might take some troubleshooting to get it to work. If you can’t get it to work then there is still value in coming to the workshop to determine whether you think it is useful and therefore, whether you want to spend the time troubleshooting.
 
-
+```
 # Thesis Down..
 install.packages(c('tinytex', 'rmarkdown'))
 tinytex::install_tinytex()
@@ -28,3 +28,4 @@ library(tinytex)
 #- knit the 'blank' template page that opens.
  
 # IF that works, you're done.
+```
